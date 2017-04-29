@@ -11,7 +11,7 @@ body{
   background-image: url(../img/mobile/index/imageFond.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: sans-serif;
+  font-family: Optima;
   width: 95%;
   margin: auto;
 }
@@ -105,7 +105,7 @@ main section article div ul, main section article div img{
 }
 
 /**********************************************/
-/****************Mobile************************/
+/****************FIN Mobile************************/
 /**********************************************/
 
 
@@ -113,19 +113,90 @@ main section article div ul, main section article div img{
 /****************Tablette************************/
 /**********************************************/
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 950px){
+
+  body{
+    background-image: url(../img/tablette/index/imageFond.png);
+  }
 
   /*****************HEADER*********************/
 
+  header section img{
+    width: 7.5%;
+  }
 
   /*****************FIN HEADER*********************/
 
 
   /*****************Main*********************/
 
-  
+  main section article p{
+    margin-left: 10px;
+  }
 
+  main section article{
+    vertical-align: top;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 49%;
+  }
 
   /*****************Fin Main*********************/
+
+}
+
+/**********************************************/
+/****************Ordinateur************************/
+/**********************************************/
+
+@media screen and (min-width: 1200px){
+
+/*****************header*********************/
+
+  header section img{
+    width: 5%;
+  }
+
+/*****************Fin header*********************/
+
+
+/*****************Main*********************/
+
+  main section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  main section article div{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: top;
+    border: 1px solid #000;
+  }
+
+  main section article div ul,main section article div ul li{
+    border: 1px solid #000;
+    padding-left: 0;
+  }
+
+  main section article div ul{
+    width: 95%;
+  }
+
+
+
+
+
+  h3{
+    display: none;
+  }
+
+/*****************Fin Main*********************/
 
 }
