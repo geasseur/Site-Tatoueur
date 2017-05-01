@@ -46,6 +46,10 @@ h1{
   color:white;
 }
 
+h2{
+  color: white;
+}
+
 header section img{
   width: 7%;
   height: 50%;
@@ -109,3 +113,62 @@ section article, section article div {
 }
 
 /*****************FIN MAIN*********************/
+
+/**********************************************/
+/****************Tablette************************/
+/**********************************************/
+
+@media screen and (min-width: 750px){
+
+  main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  main section{
+    width: 50%;
+  }
+
+
+}
+
+
+/**********************************************/
+/****************Fin Tablette************************/
+/**********************************************/
+
+
+/**********************************************/
+/****************Ordinateur************************/
+/**********************************************/
+
+@media screen and (min-width: 1200px){
+
+
+  /*****************MAIN*********************/
+
+
+  main section{
+    width: 30%;
+  }
+
+  section article div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  section article div img{
+    height: 80%;
+    width: 50%;
+  }
+
+}
+
+/**********************************************/
+/****************Fin ordinateur************************/
+/**********************************************/
