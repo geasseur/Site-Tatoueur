@@ -26,9 +26,9 @@ a{
 }
 
 header{
-  height: 170px;
+  height: 150px;
   margin: auto;
-
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 header section{
