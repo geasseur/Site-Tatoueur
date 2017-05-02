@@ -27,7 +27,6 @@ a{
 
 header{
   height: 170px;
-  width: 95%;
   margin: auto;
 
 }
@@ -95,7 +94,7 @@ main section a{
 /****************Tablette************************/
 /**********************************************/
 
-@media screen and (min-width: 640px){
+@media screen and (min-width: 750px){
 
   body{
     background-image: url(../img/tablette/index/imageFond.png);
@@ -104,7 +103,7 @@ main section a{
 /*****************HEADER*********************/
 
 header section img{
-  width: 10%;
+  width: 8%;
   height: 80%;
 }
 
@@ -115,6 +114,7 @@ header section img{
 
   main section img{
     width: 80%;
+    height: 90%;
   }
 
 /*****************Fin Main*********************/
@@ -131,7 +131,7 @@ header section img{
 /****************Ordinateur************************/
 /**********************************************/
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1200px){
 
   body{
     background-image: url(../img/tablette/index/imageFond.png);
@@ -140,7 +140,7 @@ header section img{
   /*****************HEADER*********************/
 
   header section img{
-    width: 10%;
+    width: 6%;
     height: 100%;
   }
   /*****************HEADER*********************/
