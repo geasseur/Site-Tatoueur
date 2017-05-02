@@ -91,7 +91,6 @@ section article{
 
 section article div{
   flex-direction: row;
-  border: 1px solid #000;
   width: 80%;
 }
 
